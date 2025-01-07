@@ -6,6 +6,19 @@ Lightgun for Windows with Python and an USB webcam
 
 
 
+## What you need:
++  a USB webcam that delivers at least 60 FPS at 1280x720. (The more the better)
++  Arduino with 328P chip or similar
++  5 Pushbuttons with some wire
++  a decent computer
++  maybe a 3d printer to build your own Lightgun
+
+How it works:<br>
+► record frame from camera 
+
+► search for the rectangle and do a bit math 
+
+► uses the calculated Point and send it as mouse position to your windows environement
 
 ## Setup
 If you don't have Python on your PC or don't want to install it, you can use the WinPyython project.
@@ -35,11 +48,13 @@ Since there is no second player yet, it is sufficient to flash the Arduino with 
 <img src="https://github.com/Cynobs-repo/cygun/blob/main/Arduino.png" width="300" />
 
 <br>
-+ Arduino Pin 2 -- Fire button ------ GND
-+ Arduino pin 3 -- Option button 1 -- GND
-+ Arduino pin 4 -- Option button 2 -- GND
-+ Arduino pin 5 -- Option button 3 -- GND
-+ Arduino Pin 6 -- Option button 4 -- GND
+
++  Arduino Pin 2 -- Fire button ------ GND
++  Arduino pin 3 -- Option button 1 -- GND
++  Arduino pin 4 -- Option button 2 -- GND
++  Arduino pin 5 -- Option button 3 -- GND
++  Arduino Pin 6 -- Option button 4 -- GND
+  
 <br>
 If you open the serial monitor in the Arduino IDE after flashing, you should receive the text “RRRRRR” from the Arduino if everything went well.
 

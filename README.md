@@ -1,5 +1,5 @@
 # cygun
-Lightgun for Windows with Python and an USB webcam
+Lightgun for Windows written in Python with use of a USB webcam
 
 > [!IMPORTANT]
 > The project is an early alpha and still needs a lot of maintenance.

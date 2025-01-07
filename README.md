@@ -12,13 +12,17 @@ Lightgun for Windows written in Python with use of a USB webcam
 +  5 Pushbuttons with some wire
 +  a decent computer
 +  maybe a 3d printer to build your own Lightgun
+<br>
 
-How it works:<br>
+## How it works:<br>
+
 ► record frame from camera 
 
 ► search for the rectangle and do a bit math 
 
 ► uses the calculated Point and send it as mouse position to your windows environement
+<br><br>
+
 
 ## Setup
 If you don't have Python on your PC or don't want to install it, you can use the WinPyython project.

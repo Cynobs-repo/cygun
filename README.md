@@ -298,24 +298,43 @@ Key properties:
 
 Options in the CyGunConf.ini which have not yet made it into the settings menu:
 
-+ 'ctypes_incremental_reset_pos': When the Lightgun is started with the incremental SendInput mouse control, the software either adopts the mouse position from Windows or snaps to it by moving the pointer to the top left corner. The following options are available:
++ 'ctypes_incremental_reset_pos':<br>
+  When the Lightgun is started with the incremental SendInput mouse control, the software either adopts the mouse position from Windows or snaps to it by moving the pointer to the top left corner. The following    options are available:
   + 'desktop' - Lightgun takes over Windows position
   + 'leftup' - The mouse pointer is moved to the top left corner at startup
+<br>
 
-+ 'ctype_mouse_inc_reset_every_n_missed_frames': If the Lightgun is running with the incremental SendInput mouse control, the pointer is reset after the unsuccessful detection of the position after n frames. Default value 10
++ 'ctype_mouse_inc_reset_every_n_missed_frames':<br>
+  If the Lightgun is running with the incremental SendInput mouse control, the pointer is reset after the unsuccessful detection of the position after n frames. Default value 10
+<br>
 
-+ 'firebutton_working_style': Setting whether either a short pulse is emitted when the fire button is pressed or the pressed button is transmitted as pressed until it is released again. Possible settings:
++ 'firebutton_working_style':<br>
+  Setting whether either a short pulse is emitted when the fire button is pressed or the pressed button is transmitted as pressed until it is released again. Possible settings:
   + 'direct' - send button input until the button is released again
   + 'single' - button is pressed and released again after a short period of time.
+<br>
 
-+ 'ctypes_mouseclick_sleep_duration': Time in seconds how long to wait between pressing and releasing the mouse buttons. Too small values are no longer recognized by games.
++ 'ctypes_mouseclick_sleep_duration':<br>
+  Time in seconds how long to wait between pressing and releasing the mouse buttons. Too small values are no longer recognized by games.
+<br>
 
-+ 'ctypes_keyboard_sleep_duration': Time in seconds how long to wait between pressing and releasing the keyboard keys. Too small values are no longer recognized by games.
++ 'ctypes_keyboard_sleep_duration':<br>
+  Time in seconds how long to wait between pressing and releasing the keyboard keys. Too small values are no longer recognized by games.
+<br>
 
-+ 'shoot_offscreen4reload': Set whether or not to reload when shooting offscreen.
-Possible settings:
++ 'shoot_offscreen4reload':<br>
+  Set whether or not to reload when shooting offscreen.
+  Possible settings:
   + 'offscreen' - Enable reload when aiming and shooting offscreen
   + 'none' - Deactivates the function
+<br>
+ 
++ In the “debug” section:<br>
+  + 'show_recorded_video': 'False' If you set the value to “True”, the recorded video image and the recognized frame are displayed in a window
+<br>
+
++ In the “whiteframe” section:
+  + 'frame_boarder_size': Width of the white rectangular frame on the screen in pixels
 
 <br>
 

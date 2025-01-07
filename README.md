@@ -26,5 +26,10 @@ These are used to start Cygun in the WinPython environment. If you have installe
 Then copy the cygun folder and its contents to “..\WPy64-31241\python-3.12.4.amd64\”
 <br>
 That's it with the copying back and forth.
-<br>
+<br><br>
 ## Arduino Setup
+
+We use an Arduino to transmit the keystrokes for the fire button and four option buttons to the PC. I used a cheap one with a 328P chip. 
+Since there is no second player yet, it is sufficient to flash the Arduino with the enclosed software from the “Arduino” folder and solder the buttons as shown in the following circuit diagram.
+
+

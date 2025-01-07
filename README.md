@@ -31,7 +31,7 @@ you can download it from there if you like:<br>
 After unpacking, we have a folder with the name WPy64-31241, which we open. 
 There we start “WinPython Command Prompt.exe” and first install all the required libraries.
 ```
-python.bat -m pip install configparser numpy opencv-contrib-python pygame pygrabber pynput pywin32 pyserial
+python.bat -m pip install configparser numpy opencv-contrib-python pygame pygrabber pywin32 pyserial
 ```
 Once this is done, we copy the Windows batch scripts “run_cygun.bat”, “run_setup.bat” and “run_frame.bat” into the “scripts” folder.
 These are used to start Cygun in the WinPython environment. If you have installed Python directly, you can also start the corresponding scripts directly. The batch scripts are only used to activate the “virtual” Python environment.
